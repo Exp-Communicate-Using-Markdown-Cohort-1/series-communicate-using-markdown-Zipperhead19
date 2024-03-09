@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - id: get_step
         run: |
           echo "current_step=$(cat ./.github/script/STEP)" >> $GITHUB_OUTPUT
@@ -54,7 +54,7 @@ jobs:
     steps:
       # We'll need to check out the repository so that we can edit the README
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Let's get all the branches
 
@@ -93,7 +93,7 @@ jobs:
       # Update README to close <details id=0> and open <details id=1>
       # and set STEP to '1'
       - name: Update to step 1
-        uses: skills/action-update-step@v1
+        uses: skills/action-update-step@v2
         with:
           token: ${{ secrets.GLOBAL_CLASSROOM_ORG_TOKEN }}
           from_step: 0
