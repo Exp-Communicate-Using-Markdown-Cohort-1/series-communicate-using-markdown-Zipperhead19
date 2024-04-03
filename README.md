@@ -17,14 +17,14 @@ _Organize ideas and collaborate using Markdown, a lightweight language for text 
   Encourage users to open new tabs for steps!
 -->
 
-<details id=1 open>
+<details id=1>
 <summary><h2>Step 1: Add headers</h2></summary>
 
 _Welcome to "Communicate using Markdown"! :wave:_
 
 **What is _Markdown_?** Markdown is a [lightweight syntax](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for communicating on GitHub. You can format text to add heading, lists, **bold**, _italics_, tables, and many other stylings. You can use Markdown most places around GitHub:
 
-- Comments in [issues](https://docs.github.com/issues/tracking-your-work-with-issues/about-issues), [pull requests](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests), and [discussions](https://docs.github.com/discussions/collaborating-with-your-community-using-discussions/about-discussions)
+- Comments in [issues][def], [pull requests](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests), and [discussions](https://docs.github.com/discussions/collaborating-with-your-community-using-discussions/about-discussions)
 - Files with the `.md` or `.markdown` extension
 - Sharing snippets of text in [Gists](https://docs.github.com/github/writing-on-github/editing-and-sharing-content-with-gists/creating-gists)
 
@@ -67,7 +67,7 @@ _Welcome to "Communicate using Markdown"! :wave:_
   Define terms and link to docs.github.com.
 -->
 
-<details id=2>
+<details id=2 open>
 <summary><h2>Step 2: Add an image</h2></summary>
 
 _Great job adding headers to the file :sparkles:_
@@ -251,3 +251,6 @@ Here's a recap of all the tasks you've accomplished in your repository:
 Get help: [Post in our discussion board](https://github.com/orgs/community/discussions/categories/github-education) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
 
 &copy; 2022 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+
+
+[def]: https://docs.github.com/issues/tracking-your-work-with-issues/about-issues
